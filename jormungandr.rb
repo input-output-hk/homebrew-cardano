@@ -1,10 +1,10 @@
 class Jormungandr < Formula
-  version 'v0.2.2'
+  version 'v0.2.4'
   desc "Cardano Node on Rust"
   homepage "https://github.com/input-output-hk/jormungandr"
 
   url "https://github.com/input-output-hk/jormungandr/releases/download/#{version}/jormungandr-#{version}-x86_64-apple-darwin.tar.gz"
-  sha256 "49563d3e44f0ac4e7df2c01fc66c8d61c5bb3d5aa3c0e58318f43ffa6de026ab"
+  sha256 "fc6b263ef19c99e18fc79a71c12010f82889847e2306eb8dbd86b96c3d3064b7"
 
   def install
     bin.install "jormungandr"
