@@ -5,7 +5,7 @@
 Also a more automated approach to run jormungandr using `nix` can be found at https://github.com/input-output-hk/jormungandr-nix
 
 To use with homebrew (not recommend):
-
+```
 brew tap input-output-hk/cardano
-
 brew install jormungandr
+```
